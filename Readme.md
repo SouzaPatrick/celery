@@ -1,11 +1,15 @@
 ## python version 3.10
 
 Adicionar flacke8 ao projeto
+```
 sudo apt install flake8
+```
 
 Dentro da pasta do projeto insira os comandos
+```
 flake8 --install-hook git
 git config flake8.strict true
+```
 
 Iniciar RabbitMQ pelo docker
 ```
